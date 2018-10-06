@@ -1,0 +1,92 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Niramit';
+    background-color: black;
+    overflow-x: hidden;
+    
+}
+.bg-dark, .dropdown-menu{
+    background-color: black !important;
+}
+.navbar{
+    padding-bottom : 0rem;
+    padding-top : 0rem;
+}
+a.nav-brand{
+    font-family: 'Caveat Brush', cursive;
+    color:#f4d142 !important;
+    font-size: 2.5rem;
+}
+.navbar-toggler{
+    margin-right:1rem;
+}
+.nav-link{
+    border-bottom : 4px solid transparent;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.nav-link:hover{
+    color :#cccccc !important;
+}
+li .active{
+    border-bottom : 4px solid #f4d142;
+}
+.landing {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: table;
+    background: transparent;
+    z-index: -1;
+  }
+.home-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.home-inner {
+    position: fixed;
+    display: table;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+    background-image: url(../img/header-bg.jpg);
+  }
+.heading{
+    text-align: center;
+    color : white;
+    z-index: 1;
+    top : 40%;
+    width: 100%;
+    position: absolute;
+}
+.dropdown-item:active{
+    border-left : 4px solid #f4d142;
+    background-color: black;
+    color :#cccccc !important;
+}
+.dropdown-item{
+    color : rgba(255,255,255,.5) !important;
+    background-color: black;
+}
+.dropdown-header{
+    color : white !important;
+}
+.dropdown-divider{
+    border-top: 2px solid #f4d142;
+}
+.dropdown-item:hover{
+    background-color: black;
+    color :#cccccc !important;
+}
