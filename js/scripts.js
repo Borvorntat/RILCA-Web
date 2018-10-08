@@ -1,4 +1,7 @@
-function toTop(){
-    document.body.scrollTop = -10; // For Safari
-    document.documentElement.scrollTop = -10; // For Chrome, Firefox, IE and Opera
+function goYouTube(){
+    window.open("https://www.youtube.com/user/rilcamu2011", "_blank");
+    window.open("https://www.youtube.com/user/rilcaart", "_blank");
+}
+window.onload = function load() {
+    document.body.classList.add("loaded");
 }
